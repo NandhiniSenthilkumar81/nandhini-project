@@ -1,0 +1,32 @@
+<div class="d-flex">
+  <div class="">
+    <button id="toggleSidebarBtn"class="btn btn-light position-fixed" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar">
+      <i class="bi bi-list"></i>
+    </button>
+  </div>
+    
+    <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasSidebar">
+      <div class="offcanvas-header border-bottom border-secondary d-flex align-items-center">
+        <img src="assets/studentlogo.jpeg" style="width: 50px; height: 50px; margin-bottom: 5px;" class=" me-2 ms-4">
+        <h5 class="offcanvas-title text-center">Student Panel</h5>
+      </div>
+      <div class="offcanvas-body ">
+        <div class="d-flex align-items-center justify-content-start mb-3 ms-3 ">
+          <img src="assets/studentlogo.jpeg"  style="width: 40px; height: 40px; margin-bottom: 5px;" class="rounded-circle me-2 ">
+          <p class="mt-1 mb-0  " style="font-size: 20px;">{{ userName }}</p>
+        </div>
+        <div class="border-bottom  mt-2" style="width:100%"></div>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item mb-1 mt-4"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2 "></i>Home</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>View/Edit Profile</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>View Tasks</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>View Results</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>View Attendance</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>View Notifications</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>Apply For Leave</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>Feedback</a></li>
+          <li class="nav-item mb-1"><a class="nav-link text-white fw-bold" style="font-size: 18px;" href="#"><i class="bi bi-grid-3x3-gap-fill me-2"></i>Logout</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
